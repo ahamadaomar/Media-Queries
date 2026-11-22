@@ -1,0 +1,53 @@
+section {
+    background-color: #88c1d0;
+    width: 23%;
+    height: 35px;
+    margin: 1%;
+
+
+    text-align: center;
+
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Grand écran */
+@media screen and (min-width: 1600px) {
+    section {
+        width: 23%;
+        background-color: chocolate;
+    }
+}
+
+/* Écran moyen */
+@media screen and (min-width: 768px) and (max-width: 1599px) {
+    section {
+        width: 46%;
+        background-color: blue;
+    }
+}
+
+/* Petit écran */
+@media screen and (max-width: 767px) {
+    section {
+        width: 98%;
+        background-color: crimson;
+    }
+}
+
+
+/* menu de navigation sur le job04 */
+
+header {
+    width: 100%;
+
+}
+
+@media screen and (max-width: 767px) {
+    #menu {
+        display: block;
+    }  
+}
